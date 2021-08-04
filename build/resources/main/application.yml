@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    database-plataform: org.hibernate.dialect.MySQL8Dialect
+    hibernate.ddl-auto: create
+  datasource:
+    url: jdbc:mysql://localhost:3306/apiflix
+    username: root
+    password: password
+  application:
+    name: apiflix
